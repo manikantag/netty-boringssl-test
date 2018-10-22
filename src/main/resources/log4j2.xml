@@ -7,9 +7,7 @@
     </Appenders>
 
     <Loggers>
-        <Logger name="io.vertx" level="debug"/>
         <Logger name="io.netty" level="debug"/>
-        <Logger name="io.vertx.core.impl.BlockedThreadChecker" level="error"/>
 
         <Root level="warn" includeLocation="false">
             <AppenderRef ref="Console"/>
